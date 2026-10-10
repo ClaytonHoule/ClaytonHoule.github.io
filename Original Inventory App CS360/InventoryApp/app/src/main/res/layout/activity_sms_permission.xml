@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textSmsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SMS Notifications"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textSmsDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Receive text message alerts when inventory levels become low so you can restock important items before they run out."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textSmsStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: SMS notifications disabled"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/buttonEnableSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable SMS Notifications"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/buttonDisableSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Thanks"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/textAlertPreviewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Example Notification"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textAlertPreview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inventory Alert: Milk quantity below 5 items. Consider restocking soon."
+            android:padding="12dp"
+            android:background="#EEEEEE" />
+
+    </LinearLayout>
+
+</ScrollView>
