@@ -1,21 +1,227 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Clayton Houle - CS 499 ePortfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clayton Houle | CS 499 ePortfolio</title>
 </head>
+
 <body>
-    <h1>CS 499 ePortfolio</h1>
-    <h2>Android Inventory Application</h2>
-    <p>
-        <a href="Original_Inventory_App_CS360.zip">
-            Download Original Artifact
+
+  <header>
+    <h1>Clayton Houle</h1>
+    <p>CS 499 Computer Science ePortfolio</p>
+
+    <nav>
+      <a href="#assessment">Professional Self-Assessment</a> |
+      <a href="#code-review">Code Review</a> |
+      <a href="#software">Software Design &amp; Engineering</a> |
+      <a href="#algorithms">Algorithms &amp; Data Structures</a> |
+      <a href="#databases">Databases</a> |
+      <a href="#artifacts">Artifacts</a>
+    </nav>
+
+    <hr>
+  </header>
+
+  <main>
+
+    <!-- PROFESSIONAL SELF-ASSESSMENT -->
+    <section id="assessment">
+      <h2>Professional Self-Assessment</h2>
+
+      <p>
+        Completing the computer science program has changed the way I approach software development.
+        When I first began working on the program, I focused on whether I could make programs that worked.
+        Being new to computer programming, I needed to learn and grasp the fundamentals to succeed.
+        As I progressed through the program, my perspective shifted to learning systems thinking and software design.
+        I began thinking more about system design, how components interact, how software can be tested and maintained
+        for future planning, what trade-offs are and when to apply them. This ePortfolio is designed to bring these
+        concepts together and discuss how I use my skills to upgrade and enhance an earlier project.
+      </p>
+
+      <p>
+        While working in the program, full-stack development has been one of my favorite classes and projects to work on.
+        Admittedly, I had little to no experience with UI/UX prior to this class. Full stack includes many of the subjects
+        I enjoyed working on in the computer science program, such as databases, system architecture, and UI/UX design.
+      </p>
+
+      <p>
+        An important lesson I learned in the program is the value of collaboration during software development.
+        I gained a lot of communicative experience from online discussion, reviewing instructor feedback, and email
+        conversations I had with my professors. I was able to apply these to my projects, improving my projects in
+        general, while also teaching me the importance of collaborating.
+      </p>
+
+      <p>
+        Planning has also been a major help throughout my courses. During my capstone, I drew up UML class designs
+        to help visualize the flow I wanted my project to encompass. I would often reference online articles and examples
+        for my capstone project as well, specifically when implementing Room database operations and making them asynchronous.
+      </p>
+
+      <p>
+        Other than software design, data structures and algorithms have changed how I approach programming problems.
+        Toward the beginning of the program, I often focused on whether a solution worked without considering efficiency
+        or speed. The courses covering algorithms taught me to focus more on time and space complexity when creating apps.
+        I applied this to my capstone by implementing a low-stock filter with O(n) complexity and a merge sort algorithm
+        with O(n log n) complexity.
+      </p>
+
+      <p>
+        Database development was especially important for my capstone. The original inventory app relied on an SQLite
+        implementation. Although it worked for the class it was created in, I thought it was important to modernize the
+        application by utilizing Android Room and a ViewModel structure. Besides the capstone, I also learned a lot from
+        a previous full-stack development course. The project required me to work on both backend and frontend development
+        for a travel website. I used tools such as MongoDB, MongoDB Compass, and Git throughout its development.
+      </p>
+
+      <p>
+        Another important section of the program was its emphasis on the software development life cycle, Waterfall and
+        Agile/Scrum, and business/stakeholder communication. I practiced these concepts independently and through online
+        interactions with other students. Many courses that focused on coding projects included assignments that required
+        me to communicate with stakeholders, project managers, and other team members, reinforcing the importance of
+        adjusting technical communication for different audiences.
+      </p>
+
+      <p>
+        Security has become increasingly important throughout my courses. In a previous Secure Coding course, I created
+        several testing files using GTest frameworks and manual tests such as overflow and underflow tests. This course
+        broadened my understanding of how tests are created, when they should be implemented, and how they are used
+        throughout a project's life cycle. I applied these concepts to my capstone by adding asynchronous database
+        operations and SHA-256 hashing for stored passwords.
+      </p>
+
+      <p>
+        The artifact enhancements in my ePortfolio work together to demonstrate growth across several areas of computer
+        science. The software engineering enhancement focused on improving architecture and code organization as well as
+        using Kotlin, the algorithms enhancement added a low-stock filter and merge sort algorithm that are efficient and
+        appropriate for the app, and the database enhancement migrated inventory storage from SQLite to Room, modernizing
+        data storage while improving reliability and security practices. These enhancements showcase how I applied what
+        I learned to an application in a structured, measurable way.
+      </p>
+
+      <p>
+        The ePortfolio brings the whole picture together to demonstrate how my approach to computer science has developed.
+        From creating programs that simply worked to designing software that is organized, testable, secure, and maintainable,
+        the program helped shape my interests and taught me how to understand software fundamentally. These experiences
+        have reinforced my interest in full-stack and app development, where I can continue working with system architecture,
+        databases, and both backend logic and frontend design.
+      </p>
+    </section>
+    <hr>
+
+    <!-- CODE REVIEW -->
+    <section id="code-review">
+      <h2>Code Review</h2>
+
+      <p>
+        Before beginning the enhancements, I reviewed the original CS 360 inventory application,
+        identified areas for improvement, and outlined the changes planned for the capstone.
+      </p>
+
+      <p>
+        <a href="Code Review.mp4" target="_blank" rel="noopener">
+          Watch the Code Review Video
         </a>
-    </p>
-    <p>
-        <a href="Enhanced_Inventory_App_CS499.zip">
-            Download Enhanced Artifact
+      </p>
+    </section>
+    <hr>
+
+    <!-- SOFTWARE DESIGN AND ENGINEERING -->
+    <section id="software">
+      <h2>Software Design and Engineering</h2>
+
+      <p>
+        The first enhancement focused on modernizing the structure of the Android inventory application.
+        Major changes included introducing Kotlin, a repository layer, and a ViewModel while moving
+        application logic away from ActivityMain. These changes improved separation of responsibilities,
+        maintainability, and the overall architecture of the application.
+      </p>
+
+      <p>
+        <a href="Software Design and Engineering Narrative.docx">
+          Software Design and Engineering Narrative
         </a>
-    </p>
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ALGORITHMS AND DATA STRUCTURES -->
+    <section id="algorithms">
+      <h2>Algorithms and Data Structures</h2>
+
+      <p>
+        The second enhancement introduced algorithmic functionality for inventory management.
+        A linear O(n) low-stock filter and an O(n log n) merge sort by quantity were implemented,
+        integrated into the application, and supported with unit tests. A configurable low-stock
+        threshold was also added.
+      </p>
+
+      <p>
+        <a href="Algorithms and Data Structures Narrative.docx">
+          Algorithms and Data Structures Narrative
+        </a>
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- DATABASES -->
+    <section id="databases">
+      <h2>Databases</h2>
+
+      <p>
+        The third enhancement migrated inventory persistence from the original SQLite implementation
+        to Android Room. The final architecture uses a Room entity, DAO, database, repository, and
+        ViewModel. Database operations were moved off the main UI thread, CRUD tests were added,
+        and stored passwords were changed from plaintext storage to SHA-256 hashing.
+      </p>
+
+      <p>
+        <a href="Databases Narrative.docx">
+          Database Enhancement Narrative
+        </a>
+      </p>
+    </section>
+
+    <hr>
+
+    <!-- ORIGINAL AND ENHANCED ARTIFACTS -->
+    <section id="artifacts">
+      <h2>Original and Enhanced Artifacts</h2>
+
+      <h3>Original CS 360 Inventory Application</h3>
+
+      <p>
+        This is the original version of the Android inventory application before the CS 499 capstone enhancements.
+      </p>
+      <p>
+        <a href="Original Inventory App CS360.zip">
+          Download Original Artifact
+        </a>
+      </p>
+      <h3>Enhanced CS 499 Inventory Application</h3>
+
+      <p>
+        This is the completed capstone version containing the software engineering, algorithms and data structures,
+        database, testing, asynchronous database, and security enhancements.
+      </p>
+
+      <p>
+        <a href="Enhanced Inventory App CS499.zip">
+          Download Enhanced Artifact
+        </a>
+      </p>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Clayton Houle | CS 499 Computer Science ePortfolio</p>
+  </footer>
+
 </body>
 </html>
